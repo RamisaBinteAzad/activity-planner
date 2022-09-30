@@ -3,99 +3,80 @@ import React from 'react';
 const FrequentlyAskedQuestion = () => {
     return (
         <div class="container pt-3 mb-5">
-            
-                <div class=" d-flex justify-content-center  align-items-center ">
-                    <div class="text-center mt-4 w-50 pt-3">
-                        <h2 class="display-6 fw-bold">Frequently Asked Questions</h2>
-                        <p class="text-muted ">The following list provides answers to the most common questions asked by instructors
-                            regarding digital learning</p>
-                    </div>
 
+            <div class=" d-flex justify-content-center  align-items-center ">
+                <div class="text-center mt-4 w-50 pt-3">
+                    <h2 class="display-6 fw-bold">Frequently Asked Questions</h2>
+                    <p class="text-muted ">The following list provides answers to the most common questions asked by instructors
+                    </p>
                 </div>
 
-                <div class="mt-4 d-flex justify-content-center">
-                    <div class="accordion w-75" id="accordionPanelsStayOpenExample">
-                        <div class="accordion-item ">
-                            <h2 class=" accordion-header" id="panelsStayOpen-headingOne">
-                                <button class="accordion-button fw-bold " type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
-                                    aria-controls="panelsStayOpen-collapseOne">
-                                    What are the differences between flex box and grid?
-                                </button>
-                            </h2>
+            </div>
 
-                            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
-                                aria-labelledby="panelsStayOpen-headingOne">
-                                <div class="accordion-body text-muted">
-                                    <strong> The basic difference between CSS Grid Layout and CSS Flexbox Layout</strong> is that flexbox
-                                    was designed for layout in one dimension - either a row or a column. Grid was designed for
-                                    two-dimensional layout - rows, and columns at the same time.Major Uniqueness between Flexbox and Grids
-                                    is that the former works on content while the latter is based on the layout.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-                                <button class="accordion-button collapsed fw-bold text-dark" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
-                                    aria-controls="panelsStayOpen-collapseTwo">
-                                    What are the differences between Bootstrap and Tailwind CSS?
-                                </button>
-                            </h2>
-                            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
-                                aria-labelledby="panelsStayOpen-headingTwo">
-                                <div class="accordion-body text-muted">
-                                    <strong> The basic difference between Bootstrap and Tailwind CSS
+            <div class="mt-4 d-flex justify-content-center">
+                <div class="accordion w-75" id="accordionPanelsStayOpenExample">
+                    <div class="accordion-item ">
+                        <h2 class=" accordion-header" id="panelsStayOpen-headingOne">
+                            <button class="accordion-button fw-bold " type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                aria-controls="panelsStayOpen-collapseOne">
+                                How Does React Work?
+                            </button>
+                        </h2>
 
-                                    </strong> is that Tailwind offers predesigned widgets to build a site from scratch with fast UI
-                                    development and Bootstrap comes with a set of pre-styled responsive, mobile-first components that
-                                    possess a definite UI kit.Tailwind CSS uses a set of utility classes to create a neat UI with more
-                                    flexibility and uniqueness.On the other hand,Sites created using Bootstrap follow the generic pattern
-                                    that makes them look identical.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-                                <button class="accordion-button collapsed  fw-bold text-dark" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
-                                    aria-controls="panelsStayOpen-collapseThree">
-                                    What is CSS Box Model?
-                                </button>
-                            </h2>
-                            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
-                                aria-labelledby="panelsStayOpen-headingThree">
-                                <div class="accordion-body text-muted">
-                                    <strong>The CSS box model</strong> is a container that contains multiple properties including borders,
-                                    margin, padding, and the content itself. It is used to create the design and layout of web pages. It can
-                                    be used as a toolkit for customizing the layout of different elements.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="panelsStayOpen-headingFour">
-                                <button class="accordion-button collapsed  fw-bold text-dark" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
-                                    aria-controls="panelsStayOpen-collapseFour">
-                                    What are Semantic Elements?
-                                </button>
-                            </h2>
-                            <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse"
-                                aria-labelledby="panelsStayOpen-headingFour">
-                                <div class="accordion-body text-muted">
-                                    <strong> Semantic HTML elements are those that clearly describe their meaning in a human- and
-                                        machine-readable way.</strong> Elements such as &ltheader&gt, &ltfooter&gtand &ltarticle&gt are all
-                                    considered semantic because they accurately describe the purpose of the element and the type of content
-                                    that is inside them.Some semantic elements added in HTML5 are:&ltarticle&gt,&ltaside&gt,
-                                    &ltdetails&gt,&ltnav&gt,&ltheader&gt,&ltfigcaption&gt,&ltfigure&gt,&ltfooter&gt
-                                    ,&ltmain&gt,&ltmark&gt,&ltsection&gt,&ltsummary&gt,&lttime&gt.
-                                </div>
+                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                            aria-labelledby="panelsStayOpen-headingOne">
+                            <div class="accordion-body text-muted">
+                                <strong> One of the biggest advantages of using React is</strong>  that you can infuse HTML code with JavaScript.Users can create a representation of a DOM node by declaring the Element function in React.Instead of using the traditional DOM class, React uses className.
+
+                                JSX tags have a name, children, and attributes. Numeric values and expressions must be written inside curly brackets. The quotation marks in JSX attributes represent strings, similarly to JavaScript.
+
+                                In most cases, React is written using JSX instead of standard JavaScript to simplify components and keep code clean.A React app usually has a single root DOM node. Rendering an element into the DOM will change the user interface of the page.Whenever a React component returns an element, the Virtual DOM will update the real DOM to match.
                             </div>
                         </div>
                     </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                            <button class="accordion-button collapsed fw-bold text-dark" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseTwo">
+                                What are the differences between States And Props?
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingTwo">
+                            <div class="accordion-body text-muted">
+                                <strong> The basic difference between States and Props
 
+                                </strong> is that In Props the data is passed from one component to another and in States the data is  passed within the component only.Props is Immutable (cannot be modified).	and States is Mutable ( can be modified).Props can be used with state and functional components.On the Other Hand,State can be used only with the state components/class component.Props are read-only and State is both read and write.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                            <button class="accordion-button collapsed  fw-bold text-dark" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseThree">
+                                What are the works of useEffect besides Data Loading?
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingThree">
+                            <div class="accordion-body text-muted">
+                                <strong>Besides data loading the works of useEffect is::</strong> <ul><li>Running on state change:validating input field. </li></ul>Validating an input while it's receiving characters is another great application for useEffect. Whilst the input is being stored in a state using useState, the validation takes place every time the input changes, giving immediate feedback to the user.
+                                <ul><li>Running on state change: live filtering.</li> </ul>
+                                We can use useEffect to filter an array "on the fly" by typing letters into an input element. To do so, we will need to use a state to save the input, and a filter implementation inside the useEffect that will be triggered when the input changes, thanks to useEffect dependencies.
+                                <ul><li>Running on state change: trigger animation on new array value</li> </ul>
+                                We can use the useEffect hook to trigger an animation on a shopping cart as a side effect of adding a new product to it. In this case, we'll need a state to handle the cart items, and another state to handle the animation trigger.
+
+                            </div>
+                        </div>
+                    </div>
+                     
                 </div>
-             
+
+            </div>
+
         </div>
     );
 };
