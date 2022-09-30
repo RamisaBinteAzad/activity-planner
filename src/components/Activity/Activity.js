@@ -11,7 +11,7 @@ const Activity = (props) => {
                 <img className='img-fluid rounded' src={img} alt="" />
                 <div className="card-body">
                     <h5 className="card-title">{name}</h5>
-                    <p className="card-text"> {about}</p>
+                    <p className="pt-3 text-muted"> {about}</p>
                     <p ><span className='fw-bold'>Activity Type:</span> {activityType}</p>
                     <p className='fw-bold'>For Age :{age}</p>
                     <p className='fw-bold'>Time required : {time}min</p>
