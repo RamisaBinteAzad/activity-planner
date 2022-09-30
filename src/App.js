@@ -16,7 +16,7 @@ function App() {
   return (
     <div >
       <ActivitiesPlan></ActivitiesPlan>
-       
+       FrequentlyAskedQuestion
       
     </div>
 
