@@ -1,0 +1,75 @@
+[
+  {
+    "id": "6335565a0551959f011ebf88",
+    "img": "https://i.ibb.co/2nxSd9C/biking.jpg/32x32",
+    "name": "Biking",
+    "activityType": "Aerobic",
+    "about": "Grab your helmet and get moving. And if you bike to work, you can save money while you get active.",
+    "age": "22-26",
+    "time": 30
+  },
+  {
+    "id": "6335565a1639d08c0cb64709",
+    "img": "https://i.ibb.co/5BCbnCN/bodyweight-exercises.jpg/32x32",
+    "name": "Bodyweight exercises — like push-ups and squats",
+    "activityType": "Muscle strengthening",
+    "about": "You can do bodyweight exercises anywhere — even at the office.",
+    "age": "21-30",
+    "time": 20
+  },
+  {
+    "id": "6335565a66731fa72fac5779",
+    "img": "https://i.ibb.co/Lt3tJkk/jogging-or-running.jpg/32x32",
+    "name": "Jogging or running",
+    "activityType": "Aerobic",
+    "about": "Just starting out? Go at your own pace! Try running for just 1 minute and build up from there.",
+    "age": "20-30",
+    "time": 20
+  },
+  {
+    "id": "6335565a319bd465d6e4e465",
+    "img": "https://i.ibb.co/hCnD9Pm/jumping-rope.jpg/32x32",
+    "name": "Jumping rope",
+    "activityType": "Aerobic",
+    "about": "You can jump rope indoors, outdoors — even at the office! Keep a rope in your car or desk so you're always ready to move.",
+    "age": "20-26",
+    "time": 10
+  },
+  {
+    "id": "6335565a1435ab66c67c37b6",
+    "img": "https://i.ibb.co/3M9BZm3/i-Stock-1205228815.webp",
+    "name": "Home repairs — like painting and cleaning gutters",
+    "activityType": "Aerobic",
+    "about": "Doing your own home repairs saves money — and it counts as physical activity!",
+    "age": "21-26",
+    "time": 30
+  },
+  {
+    "id": "6335565a0f44cb49841bafe2",
+    "img": "https://i.ibb.co/mTt89QW/stair-workout.jpg/32x32",
+
+    "name": "Stairs",
+    "activityType": "Aerobic",
+    "about": " Taking the stairs is a great way to get a few more minutes of activity in your day! And if you have stairs at home, you can use them just like a stair climber machine at the gym.",
+    "age": "20-28",
+    "time": 10
+  },
+  {
+    "id": "6335565a530115ab07ac9fb8",
+    "img": "https://i.ibb.co/WgcQdzg/yoga.jpg/32x32",
+     "name": "Yoga",
+    "activityType": "Muscle strengthening",
+    "about": "You can do yoga anywhere! Take a class to learn yoga poses, or watch online videos and practice at home.",
+    "age": "22-28",
+    "time": 25
+  },
+  {
+    "id": "6335565acacc6e25a6f63bf4",
+    "img": "https://i.ibb.co/jWNQDY2/gardening-and-weeding.webp",
+    "name": "Gardening and weeding",
+    "activityType": "Aerobic and muscle strengthening",
+    "about": "Gardening can be a real workout! Help your plants — and your muscles — grow strong.",
+    "age": "20-28",
+    "time": 10
+  }
+]
