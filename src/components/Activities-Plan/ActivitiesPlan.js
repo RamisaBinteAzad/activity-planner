@@ -5,11 +5,19 @@ import PersonalActivity from '../PersonalActivity/PersonalActivity';
 import './Activities-Plan.css'
 const ActivitiesPlan = () => {
     const [activities, setActivities] = useState([]);
+    const [activityPlan, setActivityPlan] = useState([]);
     useEffect(() => {
         fetch('activities.json')
             .then(res => res.json())
             .then(data => setActivities(data));
     }, []);
+    const handleAddToActivityPlan = (activity) => {
+        
+        // console.log(product);
+        const newactivityPlan = [...activityPlan, activity]
+        setActivityPlan(newactivityPlan);
+    }
+
     return (
 
 
@@ -31,6 +39,7 @@ const ActivitiesPlan = () => {
                                         activities.map(activity => <Activity
                                             key={activity.id}
                                             activity={activity}
+                                            handleAddToActivityPlan={handleAddToActivityPlan}
 
                                         >
 
@@ -43,7 +52,7 @@ const ActivitiesPlan = () => {
                     </div>
                 </div>
                 <div className="container  pt-4 col-12 col-lg-3 ">
-                    <PersonalActivity></PersonalActivity>
+                    <PersonalActivity activityPlan={activityPlan}></PersonalActivity>
                     
 
 

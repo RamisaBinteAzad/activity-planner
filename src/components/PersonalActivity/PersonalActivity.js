@@ -1,7 +1,15 @@
 import React, { useState } from 'react';
 import './PersonalActivity.css'
 
-const PersonalActivity = () => {
+const PersonalActivity = (props) => {
+    console.log(props)
+    const { activityPlan } = props;
+    let exerciseTime = 0;
+    for(const activity of activityPlan){
+        
+        exerciseTime = exerciseTime + activity.time;
+       
+    }
     const [breakTime, setBreakTime] = useState(0);
     const addBreakTime = (event) => {
         
@@ -92,7 +100,7 @@ const PersonalActivity = () => {
                          
                     </div>
                     <div class="col">
-                        <span className='text-muted  h6'>0 minutes</span>
+                        <span className='text-muted  h6'>{exerciseTime} minutes</span>
                          
                     </div>
                     

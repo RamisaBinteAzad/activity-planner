@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Activity = (props) => {
-    console.log(props)
+     
 
 
     const { img, name, age, activityType, about, id, time } = props.activity;
@@ -14,8 +14,8 @@ const Activity = (props) => {
                     <p className="pt-3 text-muted"> {about}</p>
                     <p ><span className='fw-bold'>Activity Type:</span> {activityType}</p>
                     <p className='fw-bold'>For Age :{age}</p>
-                    <p className='fw-bold'>Time required : {time}min</p>
-                    <button className="btn btn-primary w-100" type="button">Add To Your Plan</button>
+                    <p className='fw-bold'>Time required : {time} min</p>
+                    <button onClick={() => props.handleAddToActivityPlan( props.activity)}className="btn btn-primary w-100" type="button">Add To Your Plan</button>
                 </div>
             </div>
         </div>
