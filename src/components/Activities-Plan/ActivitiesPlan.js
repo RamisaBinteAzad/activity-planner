@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import logo from '../../images/exercise.png'
 import Activity from '../Activity/Activity';
 import PersonalActivity from '../PersonalActivity/PersonalActivity';
+
 import './Activities-Plan.css'
 const ActivitiesPlan = () => {
     const [activities, setActivities] = useState([]);
