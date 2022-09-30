@@ -5,6 +5,7 @@ import {toast} from 'react-toastify';
  
 // Import toastify css file
 import 'react-toastify/dist/ReactToastify.css';
+import FrequentlyAskedQuestion from './components/FrequentlyAskedQuestion/FrequentlyAskedQuestion';
 
 function App() {
   const notify = ()=>{
@@ -16,7 +17,7 @@ function App() {
   return (
     <div >
       <ActivitiesPlan></ActivitiesPlan>
-       FrequentlyAskedQuestion
+       <FrequentlyAskedQuestion></FrequentlyAskedQuestion>
       
     </div>
 
