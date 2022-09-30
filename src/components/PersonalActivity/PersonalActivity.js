@@ -13,7 +13,7 @@ import 'react-toastify/dist/ReactToastify.css';
 const notify = ()=>{
    
     toast('Congratulations You Have Done Your Activity',
-    {position: toast.POSITION.BOTTOM_RIGHT})
+    {position: toast.POSITION.TOP_CENTER})
     // Calling toast method by passing string
     // toast('Congratulations You Have Done Your Activity')
 }
