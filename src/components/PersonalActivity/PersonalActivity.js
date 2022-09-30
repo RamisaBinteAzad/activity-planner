@@ -1,5 +1,22 @@
 import React, { useState } from 'react';
+ 
 import './PersonalActivity.css'
+ 
+import {toast, ToastContainer} from 'react-toastify';
+ 
+// Import toastify css file
+import 'react-toastify/dist/ReactToastify.css';
+ 
+ // toast-configuration method,
+ // it is compulsory method.
+// toast.configure();
+const notify = ()=>{
+   
+    toast('Congratulations You Have Done Your Activity',
+    {position: toast.POSITION.BOTTOM_RIGHT})
+    // Calling toast method by passing string
+    // toast('Congratulations You Have Done Your Activity')
+}
 
 const PersonalActivity = (props) => {
     console.log(props)
@@ -124,7 +141,9 @@ const PersonalActivity = (props) => {
                  
             </div>
             <div className='mx-3'>
-            <button className="btn btn-primary w-100 " type="button">Activity Completed</button>
+                <button className="btn btn-primary w-100 " type="button" onClick={notify}>Activity Completed</button>
+                <ToastContainer/>
+               
             </div>
             
             
